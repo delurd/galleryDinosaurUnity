@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class detailDino : MonoBehaviour
 {
-    // Start is called before the first frame update
-
+    public pointButton pointbutton;
+    public closedinoDetail closedinodetail;
 
 
     public void show()
@@ -21,6 +21,8 @@ public class detailDino : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+
+    // Start is called before the first frame update
     void Start()
     {
 
@@ -29,6 +31,17 @@ public class detailDino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(pointbutton.toggle == true)
+            {
+                closedinodetail.aksiClose();
+            }
+            else
+            {
+                //pointbutton.aksi();
+            }
+
+        }
     }
 }

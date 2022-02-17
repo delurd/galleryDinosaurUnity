@@ -1,0 +1,1568 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16224 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Game/galeryDino2dTemplate
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58209
+Successfully changed project path to: E:/Unity/Game/galeryDino2dTemplate
+E:/Unity/Game/galeryDino2dTemplate
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Game/galeryDino2dTemplate/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001764 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1554ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (795ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2623.
+Total: 3.012300 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.722600 ms  DeleteObjects: 0.023400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Plugins
+  artifactKey: Guid(800df7f3b1366784c874df34399579ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(800df7f3b1366784c874df34399579ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d1d3fb7d26ccff3ac8482c2ab9f37a') in 0.043844 seconds 
+  Import took 0.080282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085627 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+  artifactKey: Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML using Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567f9b5fa370f3beba72adb899e4cb25') in 0.040161 seconds 
+  Import took 0.043543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223380 seconds.
+  path: Assets/LeanTouch/Examples/Shaders/Smooth.shader
+  artifactKey: Guid(5a0b74f52bd883543908dfd05e6564f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Shaders/Smooth.shader using Guid(5a0b74f52bd883543908dfd05e6564f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d12ab97216e45eba31d5f43a0f3764') in 0.015603 seconds 
+  Import took 0.018445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002747 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules
+  artifactKey: Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules using Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845a676eda836335128629a4eb5dd347') in 0.005251 seconds 
+  Import took 0.007914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072477 seconds.
+  path: Assets/LeanTouch/Examples/Shaders
+  artifactKey: Guid(0a5b8e30e7296b04a9c2bc9264a7d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Shaders using Guid(0a5b8e30e7296b04a9c2bc9264a7d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f4abcc2444892db015cdbeef94c1d0') in 0.004657 seconds 
+  Import took 0.008518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012138 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody3D.unity
+  artifactKey: Guid(474f28a1abd19d84ebc3c22f43a8ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody3D.unity using Guid(474f28a1abd19d84ebc3c22f43a8ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90595bde4d442f30d56e24e3aa1a72e4') in 0.005264 seconds 
+  Import took 0.008082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004118 seconds.
+  path: Assets/LeanTouch/Examples/FingerTrailSettings.lighting
+  artifactKey: Guid(a62e8a2dc799fdc43a760e74d971ca5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerTrailSettings.lighting using Guid(a62e8a2dc799fdc43a760e74d971ca5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'cf6bef4ae69b18e5c9562ba66a6cde47') in 0.006654 seconds 
+  Import took 0.010067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009607 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoom2D.unity
+  artifactKey: Guid(8f4f7fe351528234daed0537712988ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoom2D.unity using Guid(8f4f7fe351528234daed0537712988ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876dcc618f56262c383fc7afbe563f0d') in 0.007013 seconds 
+  Import took 0.010790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006195 seconds.
+  path: Assets/LeanTouch/Examples/Select3DTransformSettings.lighting
+  artifactKey: Guid(889b8d405f9d83848a4b08fdf1de876f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select3DTransformSettings.lighting using Guid(889b8d405f9d83848a4b08fdf1de876f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4d27a6bb71d707ae4253ce2955a99ff1') in 0.005407 seconds 
+  Import took 0.008245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849123 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoomSmooth2D.unity
+  artifactKey: Guid(84b65774cb71fc543a5cba771cda3f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoomSmooth2D.unity using Guid(84b65774cb71fc543a5cba771cda3f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b13e38296dbd88386539cc5b04369b') in 0.004997 seconds 
+  Import took 0.007777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004625 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody2DSettings.lighting
+  artifactKey: Guid(04ecf8421d83a964e9e335c15b6f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody2DSettings.lighting using Guid(04ecf8421d83a964e9e335c15b6f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '24bf0da6d323cd8a1773a660c4d834a1') in 0.004867 seconds 
+  Import took 0.007532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106263 seconds.
+  path: Assets/LeanTouch/Editor/LeanSelectable_Editor.cs
+  artifactKey: Guid(f3d0b143d735bae4097c04bfe517d497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Editor/LeanSelectable_Editor.cs using Guid(f3d0b143d735bae4097c04bfe517d497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd65ad882ca7b1968d2776b795ef83f') in 0.009064 seconds 
+  Import took 0.012941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015297 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanTranslateSmooth.cs
+  artifactKey: Guid(b3a0c0879c6e0f34db5cd4de1be2c814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanTranslateSmooth.cs using Guid(b3a0c0879c6e0f34db5cd4de1be2c814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596f38dc2f385c33741b031494500d6f') in 0.004948 seconds 
+  Import took 0.007779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004421 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+  artifactKey: Guid(8f46310a8b0a8f04a92993c37c713243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb using Guid(8f46310a8b0a8f04a92993c37c713243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc290a9cb8cdd72e60ab12237623adf7') in 0.020458 seconds 
+  Import took 0.023410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039690 seconds.
+  path: Assets/LeanTouch/Scripts/LeanGesture.cs
+  artifactKey: Guid(da8a88708d8e3f349920ae0d6cc7e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Scripts/LeanGesture.cs using Guid(da8a88708d8e3f349920ae0d6cc7e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003a46df797454d196857107384c7afb') in 0.006994 seconds 
+  Import took 0.010129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004597 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoom3DSettings.lighting
+  artifactKey: Guid(67d7ac8d058422149ad79220500c8d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoom3DSettings.lighting using Guid(67d7ac8d058422149ad79220500c8d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '0a97d0a83a3c02f3ab51714368b33008') in 0.005820 seconds 
+  Import took 0.008907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027714 seconds.
+  path: Assets/LeanTouch/Examples/Press2DTranslateInertiaSettings.lighting
+  artifactKey: Guid(ff2c4b8dc2f8e2d4fae087002e80f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DTranslateInertiaSettings.lighting using Guid(ff2c4b8dc2f8e2d4fae087002e80f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'bb3f076fccc0d17f85cc28bcf8338d75') in 0.005547 seconds 
+  Import took 0.008549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031618 seconds.
+  path: Assets/LeanTouch/Examples/Fonts/OFL.txt
+  artifactKey: Guid(20509c406ce37e747a0cf40fca2fec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Fonts/OFL.txt using Guid(20509c406ce37e747a0cf40fca2fec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7257740df968cadb0b8258cf3210ceeb') in 0.008175 seconds 
+  Import took 0.011017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322712 seconds.
+  path: Assets/LeanTouch/Examples/Transform.unity
+  artifactKey: Guid(bcc6d67bd10127441a6feb2e68bfe9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Transform.unity using Guid(bcc6d67bd10127441a6feb2e68bfe9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beaa036d7eb0b6e5f1ba8a6f5bc7c21') in 0.006653 seconds 
+  Import took 0.010249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094646 seconds.
+  path: Assets/LeanTouch/Examples/SwipeDirection4Settings.lighting
+  artifactKey: Guid(6e6d9e1b1fdf0a242b60938994605a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeDirection4Settings.lighting using Guid(6e6d9e1b1fdf0a242b60938994605a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '3bc9fc51a1b09f60cde20d96f713a32a') in 0.004816 seconds 
+  Import took 0.007780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004147 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+  artifactKey: Guid(230fe34542e175245ba74b4659dae700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(230fe34542e175245ba74b4659dae700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09cc162061e2c04adc894bbf201b7c') in 0.004414 seconds 
+  Import took 0.007121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053016 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanCameraMove.cs
+  artifactKey: Guid(e278200a08f9b9f419a13f87e9559ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanCameraMove.cs using Guid(e278200a08f9b9f419a13f87e9559ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d67b63dcfc70f12c033fc1f57679e62') in 0.004370 seconds 
+  Import took 0.007213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188512 seconds.
+  path: Assets/LeanTouch/Examples/Select2DTransformRelativeSettings.lighting
+  artifactKey: Guid(e30cd8d946094c64290df65b2b28eeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select2DTransformRelativeSettings.lighting using Guid(e30cd8d946094c64290df65b2b28eeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '414f6c197b4360699aa742453340a090') in 0.005240 seconds 
+  Import took 0.008489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004538 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanPitchYaw.cs
+  artifactKey: Guid(ccbeb146a97fd79458dbfd62255e3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanPitchYaw.cs using Guid(ccbeb146a97fd79458dbfd62255e3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e321a8c681df5951b40bb51678bb04d') in 0.004590 seconds 
+  Import took 0.007550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003915 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSelectableBehaviour.cs
+  artifactKey: Guid(e79fdb2e0edc7c244ae6ee18c7f7cba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSelectableBehaviour.cs using Guid(e79fdb2e0edc7c244ae6ee18c7f7cba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df09839aecab08db155c3c356e9d2462') in 0.004481 seconds 
+  Import took 0.007389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125202 seconds.
+  path: Assets/LeanTouch/Examples/CameraPitchYawSmooth.unity
+  artifactKey: Guid(430cf1e3327f2e14f90387922980df73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraPitchYawSmooth.unity using Guid(430cf1e3327f2e14f90387922980df73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c35c7d57222d19c4e3487dc8779b6a5') in 0.005107 seconds 
+  Import took 0.007893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004128 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(b766d08851589514b97afb23c6f30a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs using Guid(b766d08851589514b97afb23c6f30a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e784fd578247d8ed2e1dd75a6327fe63') in 0.004855 seconds 
+  Import took 0.007616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007374 seconds.
+  path: Assets/LeanTouch/Examples/FingerDoubleTapSettings.lighting
+  artifactKey: Guid(64f62bf4ba4d50146a813904855b080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerDoubleTapSettings.lighting using Guid(64f62bf4ba4d50146a813904855b080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f5e09dd3fadd3a6ec4bf5961b2d9e013') in 0.004843 seconds 
+  Import took 0.007827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021376 seconds.
+  path: Assets/LeanTouch/Examples/Press3DSettings.lighting
+  artifactKey: Guid(ff123bede8c94aa48b9ba607cab11ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DSettings.lighting using Guid(ff123bede8c94aa48b9ba607cab11ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'd80260077031a1f30811b428eec10c17') in 0.006299 seconds 
+  Import took 0.009154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177736 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerHeld.cs
+  artifactKey: Guid(2b40c14fc6d3f894fa14ec4b6c180e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerHeld.cs using Guid(2b40c14fc6d3f894fa14ec4b6c180e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4f350c3ca4e7f71194aa9f69034704') in 0.004949 seconds 
+  Import took 0.008822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049688 seconds.
+  path: Assets/LeanTouch/Examples/Press2DTranslateInertia.unity
+  artifactKey: Guid(93a4ba94f5e04324a85f8a38e29dd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DTranslateInertia.unity using Guid(93a4ba94f5e04324a85f8a38e29dd4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93646ab8d5f5ff30e5c8a66adba5e250') in 0.004946 seconds 
+  Import took 0.007820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004277 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+  artifactKey: Guid(4f007001a22b3d24dae350342c4d19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb using Guid(4f007001a22b3d24dae350342c4d19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a169b349d2f93ac4fde81f5743fca4c') in 0.004814 seconds 
+  Import took 0.007639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010599 seconds.
+  path: Assets/3d/Barosaurus/Blank image.jpg
+  artifactKey: Guid(9b3ce6fc7df01ad40a16c545506e3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/Barosaurus/Blank image.jpg using Guid(9b3ce6fc7df01ad40a16c545506e3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8da280f51774c85dffd0811e54f1ea') in 0.015869 seconds 
+  Import took 0.018772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004289 seconds.
+  path: Assets/LeanTouch/Examples/Press2DTranslateSettings.lighting
+  artifactKey: Guid(16815e5cccd9936418b2cb8d4a9ca03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DTranslateSettings.lighting using Guid(16815e5cccd9936418b2cb8d4a9ca03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'cbaafef6ece5b776ef62c8d678f3ae53') in 0.004962 seconds 
+  Import took 0.007784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004204 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs using Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8abbc7c8a9c2e679150d18a09d6d44') in 0.004568 seconds 
+  Import took 0.007322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055343 seconds.
+  path: Assets/LeanTouch/Examples/FingerMultiTapSettings.lighting
+  artifactKey: Guid(374831b3ae1cfaa46a9f70fd15afad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerMultiTapSettings.lighting using Guid(374831b3ae1cfaa46a9f70fd15afad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'd62db905372366179642ac2344bf60c0') in 0.004999 seconds 
+  Import took 0.007827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139882 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSpawn.cs
+  artifactKey: Guid(3bb775feca211c748b48cd3f9b59a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSpawn.cs using Guid(3bb775feca211c748b48cd3f9b59a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f06955f395d2c65f24eec2df830015d') in 0.004394 seconds 
+  Import took 0.007156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234912 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(a4f6581c75053c94793ed29ebcecb7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(a4f6581c75053c94793ed29ebcecb7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a15e3b28fad33bf93e1fdc76f3c26') in 0.004373 seconds 
+  Import took 0.007842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004323 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoomSmooth3D.unity
+  artifactKey: Guid(4efc2379fae650d43b7a9c114f6e5772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoomSmooth3D.unity using Guid(4efc2379fae650d43b7a9c114f6e5772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68149a946bba44ddbd6f63a9c160f92e') in 0.004753 seconds 
+  Import took 0.007483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004506 seconds.
+  path: Assets/LeanTouch/Scripts/LeanSnapshot.cs
+  artifactKey: Guid(fef9e03c4eb1f4f44894223de421c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Scripts/LeanSnapshot.cs using Guid(fef9e03c4eb1f4f44894223de421c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c98f6937276968e0e169d366886c810') in 0.004310 seconds 
+  Import took 0.007054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075780 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanCameraMoveSmooth.cs
+  artifactKey: Guid(a4a42cdcf8bc5264bb3e3036ed4f52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanCameraMoveSmooth.cs using Guid(a4a42cdcf8bc5264bb3e3036ed4f52d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac66f7f660ad7a1440c82ce4df0a3fb') in 0.004666 seconds 
+  Import took 0.007538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004788 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody2D.cs
+  artifactKey: Guid(462a9eca9ccc4bc479e9ae0e7ae4024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody2D.cs using Guid(462a9eca9ccc4bc479e9ae0e7ae4024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13fd00881ba7aae37ea663e97e7caa6') in 0.004818 seconds 
+  Import took 0.007631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004379 seconds.
+  path: Assets/LeanTouch/Examples/Select2DTransformSettings.lighting
+  artifactKey: Guid(820b52a90affd1a4db4c14c8e2f8c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select2DTransformSettings.lighting using Guid(820b52a90affd1a4db4c14c8e2f8c47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'cb8b81d24063958216db68d8ca294054') in 0.004972 seconds 
+  Import took 0.007906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028719 seconds.
+  path: Assets/LeanTouch/Examples/Press2D.unity
+  artifactKey: Guid(5ae1b96bc7b703e49a68ef88702e0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2D.unity using Guid(5ae1b96bc7b703e49a68ef88702e0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74376ecd8068b0146f50d9dd1b3ce7dd') in 0.005009 seconds 
+  Import took 0.007806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004388 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerLine.cs
+  artifactKey: Guid(bee9b97130ea52b4fac32ef815a4abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerLine.cs using Guid(bee9b97130ea52b4fac32ef815a4abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba0ad2c313f43f9997b8c85bf5333b5') in 0.004555 seconds 
+  Import took 0.007268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004106 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerTrail.cs
+  artifactKey: Guid(739d33cd85c81514e8fb25f97640b4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerTrail.cs using Guid(739d33cd85c81514e8fb25f97640b4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41385d51a666e9e1f8f12f886587b34') in 0.004390 seconds 
+  Import took 0.007130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093885 seconds.
+  path: Assets/AlertFinish.cs
+  artifactKey: Guid(8f73106b27d995a4aa2405a4e10b1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlertFinish.cs using Guid(8f73106b27d995a4aa2405a4e10b1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a4f6a0d7f295b16780595a9aa81a18') in 0.004619 seconds 
+  Import took 0.013815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006647 seconds.
+  path: Assets/closedinoDetail.cs
+  artifactKey: Guid(a59ae0f71c324e844a0118e46510bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/closedinoDetail.cs using Guid(a59ae0f71c324e844a0118e46510bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0b519eb5a7fd89d46063c7f44b8ca3') in 0.004339 seconds 
+  Import took 0.007991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051600 seconds.
+  path: Assets/LeanTouch/Examples/Select3DTransformRelative.unity
+  artifactKey: Guid(893cfa2096fd189469bcbcba3e3f7cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select3DTransformRelative.unity using Guid(893cfa2096fd189469bcbcba3e3f7cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89331665ff2e396f21b5685ca9cc5833') in 0.005052 seconds 
+  Import took 0.008022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004316 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+  artifactKey: Guid(a060394c03331a64392db53a10e7f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs using Guid(a060394c03331a64392db53a10e7f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2cb3d6e90f3b5179067399f48730c5') in 0.004584 seconds 
+  Import took 0.007409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233986 seconds.
+  path: Assets/LeanTouch/Documentation/Change Log.pdf
+  artifactKey: Guid(ca2f53eb55733da488c76546b4151e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Documentation/Change Log.pdf using Guid(ca2f53eb55733da488c76546b4151e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3756b73e0d20bf7b85d046f8af121e') in 0.006582 seconds 
+  Import took 0.009334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075838 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanTouchEvents.cs
+  artifactKey: Guid(5e801af14bb6ff642a16a53be53348be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanTouchEvents.cs using Guid(5e801af14bb6ff642a16a53be53348be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31a93c67fa19d0b7d8f17973adb37d4') in 0.004721 seconds 
+  Import took 0.008020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003589 seconds.
+  path: Assets/LeanTouch/Examples/Meshes
+  artifactKey: Guid(500f22e6b7208614ea0e141a366c8173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Meshes using Guid(500f22e6b7208614ea0e141a366c8173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4bdd7eec29dd2d9ba0445e31f44f9f') in 0.006565 seconds 
+  Import took 0.022642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135277 seconds.
+  path: Assets/LeanTouch/Examples/Select3DTransform.unity
+  artifactKey: Guid(982cce8599efa9241a47d9c360164f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select3DTransform.unity using Guid(982cce8599efa9241a47d9c360164f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41313875667a82b122a0b9aba147c66') in 0.005137 seconds 
+  Import took 0.008141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027454 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5253468839e32f776fdc24af9a1f2554') in 0.004797 seconds 
+  Import took 0.007652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028898 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody2D.unity
+  artifactKey: Guid(25539bdadd9d51241aaf1e5d12f13208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody2D.unity using Guid(25539bdadd9d51241aaf1e5d12f13208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b800c2e37cb49220b35c42908ffe4') in 0.005196 seconds 
+  Import took 0.008137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004104 seconds.
+  path: Assets/LeanTouch/Examples/SwipeDirection4.unity
+  artifactKey: Guid(b9f2e12e189bfe64087696f16aaa9ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeDirection4.unity using Guid(b9f2e12e189bfe64087696f16aaa9ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdd97ce4d8975ea5ff0735ebbdb06d0') in 0.004703 seconds 
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091627 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanCameraZoomSmooth.cs
+  artifactKey: Guid(0092a8db70c45584e9628a5ffb6aca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanCameraZoomSmooth.cs using Guid(0092a8db70c45584e9628a5ffb6aca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75f6ca3624fa7906ab001de6060d8a6') in 0.005354 seconds 
+  Import took 0.008710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005069 seconds.
+  path: Assets/LeanTouch/Scripts/LeanFinger.cs
+  artifactKey: Guid(0991e6d1946d343449afb6600057d2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Scripts/LeanFinger.cs using Guid(0991e6d1946d343449afb6600057d2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a85e1a42002aaa968d3635105932cb') in 0.005340 seconds 
+  Import took 0.008617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005067 seconds.
+  path: Assets/detailDino.cs
+  artifactKey: Guid(fb4b0718b9d518341b5acd721845646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/detailDino.cs using Guid(fb4b0718b9d518341b5acd721845646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3094f3755a82d045d87b0ed2d2ce5dc1') in 0.005805 seconds 
+  Import took 0.008983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004193 seconds.
+  path: Assets/LeanTouch/Examples/Press3DTranslateSmoothSettings.lighting
+  artifactKey: Guid(ba4fb6e24b28117469538ef89eee1b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DTranslateSmoothSettings.lighting using Guid(ba4fb6e24b28117469538ef89eee1b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'cdd0fcfea41223b98fd9cf0c2dfd47ca') in 0.005002 seconds 
+  Import took 0.007844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanMultiTap.cs
+  artifactKey: Guid(10590237be80fec44848823b966da72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanMultiTap.cs using Guid(10590237be80fec44848823b966da72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7d9c4f6057fb94ba9e36c5d1876c6') in 0.004717 seconds 
+  Import took 0.007465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004309 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody3DSettings.lighting
+  artifactKey: Guid(8d1cd5180d74e6148afe9e8ec0794e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody3DSettings.lighting using Guid(8d1cd5180d74e6148afe9e8ec0794e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '44301cc8839fb2381a6af3d6e3aeb13f') in 0.004712 seconds 
+  Import took 0.007397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045815 seconds.
+  path: Assets/LeanTouch/Examples/FingerHeldSettings.lighting
+  artifactKey: Guid(bfd84a05a32c3af4ca31fb6488056cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerHeldSettings.lighting using Guid(bfd84a05a32c3af4ca31fb6488056cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '1d053398653d558a73821f29f5c8e6d6') in 0.005210 seconds 
+  Import took 0.008352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023105 seconds.
+  path: Assets/Plugins/Demigiant
+  artifactKey: Guid(fa718c654ecebb54f9614809fa193727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant using Guid(fa718c654ecebb54f9614809fa193727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5923ffc5fd645ca1bb44dcaf29717d76') in 0.005989 seconds 
+  Import took 0.008912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005055 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoom3D.unity
+  artifactKey: Guid(6483c07ab70102244a13806d13ac93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoom3D.unity using Guid(6483c07ab70102244a13806d13ac93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba5aca9f7c84c6f99054db9435e4248') in 0.004675 seconds 
+  Import took 0.007468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085063 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSelect.cs
+  artifactKey: Guid(479d695282ba6cf4ba3ab3c4848f05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSelect.cs using Guid(479d695282ba6cf4ba3ab3c4848f05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b2a77722c293e31e9bce8bcb8bb072') in 0.008746 seconds 
+  Import took 0.013707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012450 seconds.
+  path: Assets/3d/Brachiosaurus/Materials/DR_Brachio_C.mat
+  artifactKey: Guid(407671ec06a223540b87b89e6d951639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/Brachiosaurus/Materials/DR_Brachio_C.mat using Guid(407671ec06a223540b87b89e6d951639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce988113e501d61411e47f23e863cc7') in 0.198718 seconds 
+  Import took 0.201843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101207 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody2DNoReleaseSettings.lighting
+  artifactKey: Guid(ba258695c1cd75b428427fbb4eb3554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody2DNoReleaseSettings.lighting using Guid(ba258695c1cd75b428427fbb4eb3554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'a3c69235b2681c249122cb75e6aaa90d') in 0.005287 seconds 
+  Import took 0.008368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074666 seconds.
+  path: Assets/LeanTouch/Examples/Select2D.unity
+  artifactKey: Guid(af2a4c390be04884582d06f19616d94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select2D.unity using Guid(af2a4c390be04884582d06f19616d94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16944959c9b9fc7aee6b35acd538455a') in 0.005019 seconds 
+  Import took 0.023535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004525 seconds.
+  path: Assets/LeanTouch/Examples/FingerMultiTap.unity
+  artifactKey: Guid(627bd1b0b0cbd964094338b918867fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerMultiTap.unity using Guid(627bd1b0b0cbd964094338b918867fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855c88fa2013384fa318fc4a7ac6f560') in 0.004639 seconds 
+  Import took 0.007366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478208 seconds.
+  path: Assets/LeanTouch/Editor
+  artifactKey: Guid(539e63bd5917ca3459e1d609f65c6f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Editor using Guid(539e63bd5917ca3459e1d609f65c6f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeac6b0c8f832b588603492e50bb06a') in 0.004322 seconds 
+  Import took 0.007385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004047 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanCameraZoom.cs
+  artifactKey: Guid(272bc65dbf5cbca45840c32881688950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanCameraZoom.cs using Guid(272bc65dbf5cbca45840c32881688950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc25ba623f701071734243e7adc0d70') in 0.004214 seconds 
+  Import took 0.006901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064576 seconds.
+  path: Assets/3d/Brachiosaurus/tex.rar
+  artifactKey: Guid(25ee8223ae9eb9748af81b335a1cb63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/Brachiosaurus/tex.rar using Guid(25ee8223ae9eb9748af81b335a1cb63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f5c6cc585c3fd947648e9716a505cd') in 0.009062 seconds 
+  Import took 0.012819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003636 seconds.
+  path: Assets/audio
+  artifactKey: Guid(89a9c57a61f16044e9f0c30417d54cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio using Guid(89a9c57a61f16044e9f0c30417d54cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc703bd89be39c7e40afa6c33d55197b') in 0.005789 seconds 
+  Import took 0.009412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005928 seconds.
+  path: Assets/LeanTouch/Examples/FingerDoubleTap.unity
+  artifactKey: Guid(3ba993e45bd8bc540a58ab0bf1a234f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerDoubleTap.unity using Guid(3ba993e45bd8bc540a58ab0bf1a234f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34634a7f998c0d44a416cebebc30e096') in 0.006129 seconds 
+  Import took 0.009628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003661 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor
+  artifactKey: Guid(b27f58ae5d5c33a4bb2d1f4f34bd036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor using Guid(b27f58ae5d5c33a4bb2d1f4f34bd036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c911ba664f857131970d302f086c41') in 0.001589 seconds 
+  Import took 0.004634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004380 seconds.
+  path: Assets/LeanTouch/Examples/CameraPitchYawSmoothSettings.lighting
+  artifactKey: Guid(46b56bf79151b244d97c0964a08c6825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraPitchYawSmoothSettings.lighting using Guid(46b56bf79151b244d97c0964a08c6825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e5538c562b4a3815104283a03825bd0a') in 0.004865 seconds 
+  Import took 0.007634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004081 seconds.
+  path: Assets/LeanTouch/Examples/SwipeDirection8.unity
+  artifactKey: Guid(39fc81c139246c14cb65039a492df9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeDirection8.unity using Guid(39fc81c139246c14cb65039a492df9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a156d68d9f0f9fb6cdfa216085f96f4b') in 0.004615 seconds 
+  Import took 0.007460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002933 seconds.
+  path: Assets/3d/Brachiosaurus/Materials
+  artifactKey: Guid(e530f2318ef57c34781c72ac027a3f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/Brachiosaurus/Materials using Guid(e530f2318ef57c34781c72ac027a3f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c087d7dae949212765c2093fcbba5a89') in 0.004641 seconds 
+  Import took 0.008042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005312 seconds.
+  path: Assets/LeanTouch/Examples/Select2DTransform.unity
+  artifactKey: Guid(c6d52bf5870558c429854e11855bb34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select2DTransform.unity using Guid(c6d52bf5870558c429854e11855bb34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c790966db617d4e5d7a3ab224d4aacbf') in 0.005515 seconds 
+  Import took 0.022103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004248 seconds.
+  path: Assets/LeanTouch/Examples/TouchEvents.unity
+  artifactKey: Guid(8ac725435c4f16446b182ce8844aac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/TouchEvents.unity using Guid(8ac725435c4f16446b182ce8844aac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f731c12ec270624c128df09f909aea') in 0.004637 seconds 
+  Import took 0.007392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.215851 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoomSmooth3DSettings.lighting
+  artifactKey: Guid(36bbc621ab306b342b3bbe94d82c73c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoomSmooth3DSettings.lighting using Guid(36bbc621ab306b342b3bbe94d82c73c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '44e957b71ae762b7cbe8633fa59d6131') in 0.004755 seconds 
+  Import took 0.007667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022963 seconds.
+  path: Assets/LeanTouch/Examples/Meshes/RoundedCubeLong.obj
+  artifactKey: Guid(203554a851438ef499fc94c67ba1f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Meshes/RoundedCubeLong.obj using Guid(203554a851438ef499fc94c67ba1f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23745a2d979f9fdbe80bbe71131d832e') in 0.118613 seconds 
+  Import took 0.122127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004571 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanDestroy.cs
+  artifactKey: Guid(683e90f239f8a2b42b3533e9316fd5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanDestroy.cs using Guid(683e90f239f8a2b42b3533e9316fd5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9543fd3428d8f6409a265de93c7a4c06') in 0.004305 seconds 
+  Import took 0.007208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007602 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanOpenUrl.cs
+  artifactKey: Guid(d2cf6a4604a9b1c488ead15354d556b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanOpenUrl.cs using Guid(d2cf6a4604a9b1c488ead15354d556b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f9c252e60f21e8f745df834b35bdbd') in 0.004768 seconds 
+  Import took 0.007966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004488 seconds.
+  path: Assets/LeanTouch/Scripts/LeanSelectable.cs
+  artifactKey: Guid(83dcd8dace8b7fe449d796b980cb121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Scripts/LeanSelectable.cs using Guid(83dcd8dace8b7fe449d796b980cb121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce56dd0bb1695b03f97f93007f883b62') in 0.005054 seconds 
+  Import took 0.008056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008490 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerDown.cs
+  artifactKey: Guid(bbb097c07812299498915a0a3e793843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerDown.cs using Guid(bbb097c07812299498915a0a3e793843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2952db88641c3fae1d76a2dae84802b2') in 0.004566 seconds 
+  Import took 0.007525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007438 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerUp.cs
+  artifactKey: Guid(571b065edc65a4f41b4ea02b27b6113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerUp.cs using Guid(571b065edc65a4f41b4ea02b27b6113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ae002d882c059174529f51b3e47bd9') in 0.004593 seconds 
+  Import took 0.007537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004232 seconds.
+  path: Assets/LeanTouch/Examples/Shaders/Skybox.shader
+  artifactKey: Guid(4e1621c491a13bb4c8e64e8b3c9f49a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Shaders/Skybox.shader using Guid(4e1621c491a13bb4c8e64e8b3c9f49a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751bf818464127919b3281194e8bd369') in 0.004797 seconds 
+  Import took 0.007850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006465 seconds.
+  path: Assets/LeanTouch/Examples/Select3D.unity
+  artifactKey: Guid(5aab015c9dbb97542916173460603193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select3D.unity using Guid(5aab015c9dbb97542916173460603193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351391910951da821378050d7bae36d5') in 0.004669 seconds 
+  Import took 0.007570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.343685 seconds.
+  path: Assets/LeanTouch/Examples/Select2DSettings.lighting
+  artifactKey: Guid(44ef9717d47847c4fb3162a249e5deec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select2DSettings.lighting using Guid(44ef9717d47847c4fb3162a249e5deec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '312a2eb783477e13aaf72eac5d8b4dd2') in 0.005296 seconds 
+  Import took 0.008302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004416 seconds.
+  path: Assets/LeanTouch/Examples/Press2DSettings.lighting
+  artifactKey: Guid(4f24a570cd2ec7f4cad3f87004da1db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DSettings.lighting using Guid(4f24a570cd2ec7f4cad3f87004da1db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e724cc1b541a5c8fbbb90281541a0360') in 0.005347 seconds 
+  Import took 0.008297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309826 seconds.
+  path: Assets/LeanTouch/Examples/CameraPitchYawSettings.lighting
+  artifactKey: Guid(986876a1670149946b63534004dd510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraPitchYawSettings.lighting using Guid(986876a1670149946b63534004dd510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '968207cbf079150e5ad0c044a849214e') in 0.004737 seconds 
+  Import took 0.007576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123948 seconds.
+  path: Assets/LeanTouch/Examples/Fonts
+  artifactKey: Guid(e4ded2288ce654a4fba6d5db6d5318f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Fonts using Guid(e4ded2288ce654a4fba6d5db6d5318f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47109af96c0e24f417b86d93e06dd53') in 0.004685 seconds 
+  Import took 0.008731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004291 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoom2DSettings.lighting
+  artifactKey: Guid(b41872f2fd22522428aeab3b5119231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoom2DSettings.lighting using Guid(b41872f2fd22522428aeab3b5119231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '671827d65ecf16af98967c9b47d74d91') in 0.004872 seconds 
+  Import took 0.008120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004579 seconds.
+  path: Assets/LeanTouch/Examples/Press2DDestroy.unity
+  artifactKey: Guid(95c3fb64553c39343a2d0f43be588e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DDestroy.unity using Guid(95c3fb64553c39343a2d0f43be588e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26777a23ea273239af668013906a401d') in 0.005060 seconds 
+  Import took 0.008144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.411704 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanScale.cs
+  artifactKey: Guid(7c73c1ab94e28d244827af556dca1ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanScale.cs using Guid(7c73c1ab94e28d244827af556dca1ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12268eb0d33bf6c90d0438debac8d084') in 0.004397 seconds 
+  Import took 0.007232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069259 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanTapSelect.cs
+  artifactKey: Guid(8f8a156b9c918a84991a7f5dfb9a1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanTapSelect.cs using Guid(8f8a156b9c918a84991a7f5dfb9a1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6d857e445e035d04d92eaadf29b947') in 0.004367 seconds 
+  Import took 0.007150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155611 seconds.
+  path: Assets/LeanTouch/Examples/FingerLineSettings.lighting
+  artifactKey: Guid(ea6d1ea8169c7b845a9adfcb74b529d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerLineSettings.lighting using Guid(ea6d1ea8169c7b845a9adfcb74b529d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4a13480795b7bbf35958f4fccf3ce675') in 0.004858 seconds 
+  Import took 0.035859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004139 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSelectableTranslateInertia2D.cs
+  artifactKey: Guid(dcabb727576f3ff4aa1faa3d9f489540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSelectableTranslateInertia2D.cs using Guid(dcabb727576f3ff4aa1faa3d9f489540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04714ed8918fc0282bb905fb300c96bf') in 0.004317 seconds 
+  Import took 0.007127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105147 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanTranslate.cs
+  artifactKey: Guid(4eda371e5375f454490a86f21559ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanTranslate.cs using Guid(4eda371e5375f454490a86f21559ee38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a962f65bac51b98a676298b42ce7166') in 0.004350 seconds 
+  Import took 0.007124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004908 seconds.
+  path: Assets/LeanTouch/Examples/Select3DTransformRelativeSettings.lighting
+  artifactKey: Guid(8c7987267c5df9f4fa846273b481233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select3DTransformRelativeSettings.lighting using Guid(8c7987267c5df9f4fa846273b481233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '14e5073a34811768f583731223812030') in 0.004790 seconds 
+  Import took 0.007620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007797 seconds.
+  path: Assets/cardDino.cs
+  artifactKey: Guid(39fd5fdf9f1b88144ac860f7b2e81ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cardDino.cs using Guid(39fd5fdf9f1b88144ac860f7b2e81ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6d0de3c06924614d4c468282abf768') in 0.004497 seconds 
+  Import took 0.007349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190816 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(dae9aa560b4242648a3affa2bfabc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs using Guid(dae9aa560b4242648a3affa2bfabc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc20701615500b86f7adcc0ba0f7c4fe') in 0.004370 seconds 
+  Import took 0.007208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033330 seconds.
+  path: Assets/LeanTouch/Examples/SwipeDirection8Settings.lighting
+  artifactKey: Guid(68f2c99c805028b409060e0a0464aa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeDirection8Settings.lighting using Guid(68f2c99c805028b409060e0a0464aa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '875b67b7711334d5c14558c7943c2568') in 0.006060 seconds 
+  Import took 0.009294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004714 seconds.
+  path: Assets/LeanTouch/Examples/TransformRelative.unity
+  artifactKey: Guid(f4503f8040e549f489cd402bce299069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/TransformRelative.unity using Guid(f4503f8040e549f489cd402bce299069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343bd5877a70aae5d54e2eca29847b9c') in 0.005379 seconds 
+  Import took 0.008507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004928 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(6663f44498866724e99cb7812376a145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(6663f44498866724e99cb7812376a145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0dabecc6e737a4b9cc10a3b1cf6b27') in 0.005242 seconds 
+  Import took 0.008443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008642 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody2DNoRelease.unity
+  artifactKey: Guid(1163f1e99e558704abd611a2be2b9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody2DNoRelease.unity using Guid(1163f1e99e558704abd611a2be2b9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bd7ff0a439a578c96fea67cc065551') in 0.004599 seconds 
+  Import took 0.007460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004516 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll
+  artifactKey: Guid(a811bde74b26b53498b4f6d872b09b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll using Guid(a811bde74b26b53498b4f6d872b09b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfe9a63ca0896e6339e41b6449c2bdb') in 0.007324 seconds 
+  Import took 0.010157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083252 seconds.
+  path: Assets/LeanTouch/Examples/FingerTap.unity
+  artifactKey: Guid(935b453473865f3458f13d20bc896092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerTap.unity using Guid(935b453473865f3458f13d20bc896092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6652897aaee88845ab6939ff4d859') in 0.004717 seconds 
+  Import took 0.007569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211972 seconds.
+  path: Assets/LeanTouch/Examples/Press2DTranslateSmooth.unity
+  artifactKey: Guid(42848b991527ccf4aacabcbe454dac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DTranslateSmooth.unity using Guid(42848b991527ccf4aacabcbe454dac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b31a7c8018bd1c143885483d20bf85b') in 0.004631 seconds 
+  Import took 0.007502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083296 seconds.
+  path: Assets/LeanTouch/Examples/Press3DTranslateInertiaSettings.lighting
+  artifactKey: Guid(c8509f7252e6462448341d45fb0b1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DTranslateInertiaSettings.lighting using Guid(c8509f7252e6462448341d45fb0b1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '10559cfdc30b7bf0093842c2fe55f0cc') in 0.004974 seconds 
+  Import took 0.009030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109247 seconds.
+  path: Assets/LeanTouch/Examples/Textures
+  artifactKey: Guid(e83580e8b9e106349b8f61328e8ec7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Textures using Guid(e83580e8b9e106349b8f61328e8ec7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff1b2b0bac2f6a9901e168b0e1023df') in 0.034203 seconds 
+  Import took 0.038850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007580 seconds.
+  path: Assets/LeanTouch/Examples/Press3D.unity
+  artifactKey: Guid(8b94cc11547f53d4a8f6139cedfe14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3D.unity using Guid(8b94cc11547f53d4a8f6139cedfe14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf0e9492ec44a42c23952dd6f8a80e') in 0.007830 seconds 
+  Import took 0.012431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004655 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody3DNoRelease.unity
+  artifactKey: Guid(a6205b85124a2564a9ba48b307e206c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody3DNoRelease.unity using Guid(a6205b85124a2564a9ba48b307e206c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7046728305d790f4088956ad48390a') in 0.004744 seconds 
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003119 seconds.
+  path: Assets/LeanTouch/Examples/Prefabs
+  artifactKey: Guid(b09211bf445d11040b5be58bde513f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Prefabs using Guid(b09211bf445d11040b5be58bde513f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e2cf11f9c0f178f921331af4372ddd') in 0.004625 seconds 
+  Import took 0.007582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004067 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanMultiTapInfo.cs
+  artifactKey: Guid(8b147fc8d3a81b242ad89fe262b74a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanMultiTapInfo.cs using Guid(8b147fc8d3a81b242ad89fe262b74a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6a802391ca2b8c53e502c1f7640684') in 0.004503 seconds 
+  Import took 0.007458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004189 seconds.
+  path: Assets/LeanTouch/Examples/TransformRelativeSettings.lighting
+  artifactKey: Guid(5e5cdefc8a812ad43ad3eb7cd977cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/TransformRelativeSettings.lighting using Guid(5e5cdefc8a812ad43ad3eb7cd977cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'abb86c1835406e4df55aa172ebfecd02') in 0.004867 seconds 
+  Import took 0.007681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033731 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.XML
+  artifactKey: Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.XML using Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3d9966b6d64feefd5efa9b0ae2d785') in 0.008461 seconds 
+  Import took 0.011544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115058 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerSet.cs
+  artifactKey: Guid(00ae97f110c81c740b4d095da37274f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerSet.cs using Guid(00ae97f110c81c740b4d095da37274f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4e72e7f943c48acdb45af03225d0a0') in 0.007241 seconds 
+  Import took 0.011758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072171 seconds.
+  path: Assets/LeanTouch/Examples/FingerTrail.unity
+  artifactKey: Guid(8717ad9118782244ba638a66799dba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerTrail.unity using Guid(8717ad9118782244ba638a66799dba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3762a0480aa63b8623779cb08228e07e') in 0.004918 seconds 
+  Import took 0.007950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095736 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSelectableSpriteRendererColor.cs
+  artifactKey: Guid(a45146ec471801c4dbce44f8dd62608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSelectableSpriteRendererColor.cs using Guid(a45146ec471801c4dbce44f8dd62608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52798e14555beb2f663f4666757ebe93') in 0.008110 seconds 
+  Import took 0.013540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006424 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSelectableTranslateInertia3D.cs
+  artifactKey: Guid(ee3e4661fc4b400439131719b0fe2e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSelectableTranslateInertia3D.cs using Guid(ee3e4661fc4b400439131719b0fe2e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3abb61d11606535556ab627b533c3d') in 0.005669 seconds 
+  Import took 0.009226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005013 seconds.
+  path: Assets/LeanTouch/Examples/Press2DTranslate.unity
+  artifactKey: Guid(75a2f255d89bd7d4884e77cbc2df5407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DTranslate.unity using Guid(75a2f255d89bd7d4884e77cbc2df5407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523251c9f2dd239a84756c7bbd0962c0') in 0.005186 seconds 
+  Import took 0.008211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.797891 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody3D.cs
+  artifactKey: Guid(ff485ab22501d2d47ba906ff1b860999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody3D.cs using Guid(ff485ab22501d2d47ba906ff1b860999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4d57fd29fc8d9ff3e8e1c70dd0a076') in 0.004418 seconds 
+  Import took 0.007232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052189 seconds.
+  path: Assets/LeanTouch/Examples/Press2DTranslateSmoothSettings.lighting
+  artifactKey: Guid(4e7d966fac2f067438081a0c8c1e7272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DTranslateSmoothSettings.lighting using Guid(4e7d966fac2f067438081a0c8c1e7272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '1aef9ae4ea65f3d9d23f331782b6013e') in 0.005083 seconds 
+  Import took 0.008049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126551 seconds.
+  path: Assets/LeanTouch/Documentation
+  artifactKey: Guid(e78fc10f2b42cab47b9448299c20e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Documentation using Guid(e78fc10f2b42cab47b9448299c20e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6773b8a74eef26962e3dcad35df37f') in 0.004752 seconds 
+  Import took 0.007776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004029 seconds.
+  path: Assets/LeanTouch/Examples/SwipeRigidbody3DNoReleaseSettings.lighting
+  artifactKey: Guid(0e8d85d2a9976fd42ae8a25a341fcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/SwipeRigidbody3DNoReleaseSettings.lighting using Guid(0e8d85d2a9976fd42ae8a25a341fcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b3b29340a67add4b8185f42534dad164') in 0.004746 seconds 
+  Import took 0.007714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004931 seconds.
+  path: Assets/LeanTouch/Examples/CameraPitchYaw.unity
+  artifactKey: Guid(fb1e56005ba56d043826de65914add48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraPitchYaw.unity using Guid(fb1e56005ba56d043826de65914add48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d1f8768c45446a604009da2465fdea') in 0.004594 seconds 
+  Import took 0.007363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004309 seconds.
+  path: Assets/LeanTouch/Examples/Press2DDestroySettings.lighting
+  artifactKey: Guid(63d1be2421133bb4eadf9a1633f55d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press2DDestroySettings.lighting using Guid(63d1be2421133bb4eadf9a1633f55d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '6a396e7bf2e7bb512b4fc48f5824ad11') in 0.005040 seconds 
+  Import took 0.017798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004269 seconds.
+  path: Assets/LeanTouch/Examples/TouchEventsSettings.lighting
+  artifactKey: Guid(268c02793b371a242a9c624ce339cba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/TouchEventsSettings.lighting using Guid(268c02793b371a242a9c624ce339cba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '13b5567ac9358786982ab41d3ea4cb3d') in 0.004755 seconds 
+  Import took 0.007600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147066 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSwipeDirection4.cs
+  artifactKey: Guid(a342b064acf37284d8d3cd6fdc6592f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSwipeDirection4.cs using Guid(a342b064acf37284d8d3cd6fdc6592f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b69e281022107e805b3410046221b7') in 0.006052 seconds 
+  Import took 0.009890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.205662 seconds.
+  path: Assets/LeanTouch/Documentation/Read Me.pdf
+  artifactKey: Guid(35bc9ed9882c928428d6b8656fedefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Documentation/Read Me.pdf using Guid(35bc9ed9882c928428d6b8656fedefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c4256c43f5d3b203616e8e8bd9f9e6') in 0.009274 seconds 
+  Import took 0.014311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020636 seconds.
+  path: Assets/LeanTouch/Examples/Select3DSettings.lighting
+  artifactKey: Guid(bcb439640aa20d34faf44cda7c3f414a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select3DSettings.lighting using Guid(bcb439640aa20d34faf44cda7c3f414a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b7eec11352256605f58df690de3efd31') in 0.005567 seconds 
+  Import took 0.008502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203322 seconds.
+  path: Assets/LeanTouch/Examples
+  artifactKey: Guid(bd5b204ed2e845244844dd8c172a5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples using Guid(bd5b204ed2e845244844dd8c172a5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff15e4c284dd9b369f86fe13a263f21b') in 0.004755 seconds 
+  Import took 0.007672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004514 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+  artifactKey: Guid(63c02322328255542995bd02b47b0457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs using Guid(63c02322328255542995bd02b47b0457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b2827720ff4688eb098f0e57b786e6') in 0.004509 seconds 
+  Import took 0.007356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008858 seconds.
+  path: Assets/LeanTouch/Examples/FingerHeld.unity
+  artifactKey: Guid(dd0cd30911e9118438f7844a5bd4a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerHeld.unity using Guid(dd0cd30911e9118438f7844a5bd4a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4f2ac34d3c32b83275e33320499fd7') in 0.004784 seconds 
+  Import took 0.007608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005223 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerTap.cs
+  artifactKey: Guid(f7c1c71d8ad5da9438de3b2e5990763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerTap.cs using Guid(f7c1c71d8ad5da9438de3b2e5990763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3941b8a0bf7d0d9ba59ad33492923d8c') in 0.004559 seconds 
+  Import took 0.016819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005757 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(e944529dcaee98f4e9498d80e541d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(e944529dcaee98f4e9498d80e541d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd843afff9e226e239a413d54f90891c') in 0.004567 seconds 
+  Import took 0.007364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004708 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanFingerSwipe.cs
+  artifactKey: Guid(a2b29544581cbff48a74923442363fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanFingerSwipe.cs using Guid(a2b29544581cbff48a74923442363fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c287f7114123bb5713afec1870781064') in 0.004733 seconds 
+  Import took 0.007560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008679 seconds.
+  path: Assets/LeanTouch/Examples/FingerLine.unity
+  artifactKey: Guid(4c54fe4601b1f41419ccd6c8fe5ddc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerLine.unity using Guid(4c54fe4601b1f41419ccd6c8fe5ddc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0ad3c3d9606d47ae170b89db982e78') in 0.005218 seconds 
+  Import took 0.008106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031914 seconds.
+  path: Assets/LeanTouch/Examples/Meshes/RoundedCube.obj
+  artifactKey: Guid(5938f5e10d5bd0f4a8b03916a2fa349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Meshes/RoundedCube.obj using Guid(5938f5e10d5bd0f4a8b03916a2fa349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b464752a58193bea4aea2152778aff1f') in 0.028123 seconds 
+  Import took 0.031082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005104 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody3DNoRelease.cs
+  artifactKey: Guid(1926e66ca0eb6a3489b99a1a3442494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody3DNoRelease.cs using Guid(1926e66ca0eb6a3489b99a1a3442494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a0d719bd4ad87f6376a8e9db056900') in 0.005255 seconds 
+  Import took 0.008123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004457 seconds.
+  path: Assets/LeanTouch/Examples/Press3DTranslateSettings.lighting
+  artifactKey: Guid(48e0376e96be49043b1e4932230e05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DTranslateSettings.lighting using Guid(48e0376e96be49043b1e4932230e05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '14170a486d20f88f3eb1e4e628ee88a7') in 0.005051 seconds 
+  Import took 0.007900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004995 seconds.
+  path: Assets/LeanTouch/Examples/Select2DTransformRelative.unity
+  artifactKey: Guid(ca7d3db7afc35d2408db3e6df6afedb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Select2DTransformRelative.unity using Guid(ca7d3db7afc35d2408db3e6df6afedb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d138850a08467c8e7d36409461e04a0') in 0.004797 seconds 
+  Import took 0.007604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254316 seconds.
+  path: Assets/3d/Textures/Thumbs.db
+  artifactKey: Guid(a6f5be3a2dc3fe949b943e2467caaedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/Textures/Thumbs.db using Guid(a6f5be3a2dc3fe949b943e2467caaedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549afce1b95c79da440c2a8354f346d3') in 0.013089 seconds 
+  Import took 0.018986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018744 seconds.
+  path: Assets/LeanTouch/Examples/Press3DTranslateSmooth.unity
+  artifactKey: Guid(2118a5d904799334690ae0a4a6225daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DTranslateSmooth.unity using Guid(2118a5d904799334690ae0a4a6225daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c54af98a2a14405a01ac5cf3f35a1d') in 0.007206 seconds 
+  Import took 0.011060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477434 seconds.
+  path: Assets/LeanTouch/Examples/Prefabs/Trail.prefab
+  artifactKey: Guid(03f232e6ff0b4ff4da96e54c0e8a3371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Prefabs/Trail.prefab using Guid(03f232e6ff0b4ff4da96e54c0e8a3371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ce44f4f533172b3a99f6723ef19cf3') in 0.057201 seconds 
+  Import took 0.061063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005544 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSelectableRendererColor.cs
+  artifactKey: Guid(2baa936f016a9a14e86ac8ea42211f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSelectableRendererColor.cs using Guid(2baa936f016a9a14e86ac8ea42211f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413029754aee8a83bac671f546a311ee') in 0.004958 seconds 
+  Import took 0.007716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097563 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody2DNoRelease.cs
+  artifactKey: Guid(30bd55afe0786ea449cdb263e1b036d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSwipeRigidbody2DNoRelease.cs using Guid(30bd55afe0786ea449cdb263e1b036d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cee9b3586b98e845518d3b1131c2c8') in 0.005618 seconds 
+  Import took 0.008631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004687 seconds.
+  path: Assets/LeanTouch/Examples/TransformSettings.lighting
+  artifactKey: Guid(16078b9ac850b8540a41201b8c72e0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/TransformSettings.lighting using Guid(16078b9ac850b8540a41201b8c72e0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'a3b7243aacb79640737e6595bd4ff97d') in 0.005277 seconds 
+  Import took 0.008107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095607 seconds.
+  path: Assets/LeanTouch/Editor/LeanTouch_Editor.cs
+  artifactKey: Guid(0fb0ba936fc636e41b6d5a8eb0523c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Editor/LeanTouch_Editor.cs using Guid(0fb0ba936fc636e41b6d5a8eb0523c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858025893363d592c4175d4ea5b4bfc4') in 0.019349 seconds 
+  Import took 0.029380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012077 seconds.
+  path: Assets/LeanTouch/Examples/Materials/Trail.mat
+  artifactKey: Guid(a249bfc9d8fe9874890b7170317078ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Materials/Trail.mat using Guid(a249bfc9d8fe9874890b7170317078ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561914f0e4e8a7d9d56d944b2bfcb87') in 0.011335 seconds 
+  Import took 0.014362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004404 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+  artifactKey: Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll using Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a5a8e8b26268d33e8b98768a27d445') in 0.001387 seconds 
+  Import took 0.004081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003953 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+  artifactKey: Guid(188918ab119d93148aa0de59ccf5286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs using Guid(188918ab119d93148aa0de59ccf5286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4765225c9ea106923de23d489563f91f') in 0.004447 seconds 
+  Import took 0.007172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201347 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/readme.txt
+  artifactKey: Guid(fccfc62abf2eb0a4db614853430894fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/readme.txt using Guid(fccfc62abf2eb0a4db614853430894fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d61fb29367fe4f6be787bf276b52c0') in 0.014058 seconds 
+  Import took 0.022326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.542565 seconds.
+  path: Assets/LeanTouch/Scripts
+  artifactKey: Guid(78ed51070292b0142b0408fc45dc47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Scripts using Guid(78ed51070292b0142b0408fc45dc47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50442999d3c19c9fb5ac3a2a594ab17a') in 0.006147 seconds 
+  Import took 0.009818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440997 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanRotate.cs
+  artifactKey: Guid(52d72cc6210cb7144a24acb7402222a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanRotate.cs using Guid(52d72cc6210cb7144a24acb7402222a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12f1517c5ce07077c458b8b14357c6d') in 0.004757 seconds 
+  Import took 0.007621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.225586 seconds.
+  path: Assets/LeanTouch/Examples/Scripts
+  artifactKey: Guid(291f937b64fd3844cacc0f2be4bd43fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts using Guid(291f937b64fd3844cacc0f2be4bd43fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f57b96f0a860e11086fab59099e536') in 0.005658 seconds 
+  Import took 0.015339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207988 seconds.
+  path: Assets/LeanTouch/Examples/Materials
+  artifactKey: Guid(0d4ed2062ca995b4099b08671fe962b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Materials using Guid(0d4ed2062ca995b4099b08671fe962b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4e35a8eb02642520323214ef3efe6d') in 0.001869 seconds 
+  Import took 0.005714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111825 seconds.
+  path: Assets/3d/Brachiosaurus/Materials/DR_Brachio_B.mat
+  artifactKey: Guid(291e0c1987351f04ea67c4af8df73329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d/Brachiosaurus/Materials/DR_Brachio_B.mat using Guid(291e0c1987351f04ea67c4af8df73329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9bf4e1a54cf5a2e9ffe4b86f17d4cb') in 0.053238 seconds 
+  Import took 0.058718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.029310 seconds.
+  path: Assets/pointButton.cs
+  artifactKey: Guid(5fec9023b83fcd047914b94daa138c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pointButton.cs using Guid(5fec9023b83fcd047914b94daa138c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8158ee3b1c16200aa4095267f071f087') in 0.004546 seconds 
+  Import took 0.007378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004913 seconds.
+  path: Assets/LeanTouch/Documentation/Upgrade Guide.pdf
+  artifactKey: Guid(91879ab559145d241a6463b2d499c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Documentation/Upgrade Guide.pdf using Guid(91879ab559145d241a6463b2d499c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e329192fe86d3eacc522658382e4629') in 0.031562 seconds 
+  Import took 0.034506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048498 seconds.
+  path: Assets/LeanTouch/Examples/Press3DTranslateInertia.unity
+  artifactKey: Guid(0ba4ea89dcebf5849930747283ec1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DTranslateInertia.unity using Guid(0ba4ea89dcebf5849930747283ec1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f281a85766591e44c41c042d453d4b') in 0.006229 seconds 
+  Import took 0.009720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041587 seconds.
+  path: Assets/LeanTouch/Scripts/LeanTouch.cs
+  artifactKey: Guid(1fc98219a83dff145947365dc914d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Scripts/LeanTouch.cs using Guid(1fc98219a83dff145947365dc914d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a87c9868a134473f5c2214aef2f1a9a') in 0.024936 seconds 
+  Import took 0.028153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028702 seconds.
+  path: Assets/Plugins/Demigiant/DOTween
+  artifactKey: Guid(42b883ca8f8aea0478a6296769434675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween using Guid(42b883ca8f8aea0478a6296769434675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502bce748bc08ec8c3cb31569c5cd84e') in 0.002863 seconds 
+  Import took 0.005930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004516 seconds.
+  path: Assets/LeanTouch/Examples/Press3DTranslate.unity
+  artifactKey: Guid(bf8867a0fc0e09646aead442c003dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Press3DTranslate.unity using Guid(bf8867a0fc0e09646aead442c003dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8fe8142ce9a9bccb65556d5601a5e8') in 0.005636 seconds 
+  Import took 0.008596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004618 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanSwipeDirection8.cs
+  artifactKey: Guid(635837ba87bcedb4ea0db4559373a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanSwipeDirection8.cs using Guid(635837ba87bcedb4ea0db4559373a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831aad9ad2e5f3df4803a5a58d84541e') in 0.004699 seconds 
+  Import took 0.029670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005215 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanPitchYawSmooth.cs
+  artifactKey: Guid(2cb3664f747e0d84d9a03fc4bd328c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanPitchYawSmooth.cs using Guid(2cb3664f747e0d84d9a03fc4bd328c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6455806d8fd16537b462b0f38abd6748') in 0.005163 seconds 
+  Import took 0.008283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003348 seconds.
+  path: Assets/LeanTouch
+  artifactKey: Guid(1ca4973c47fbe0044836c0d44a9665e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch using Guid(1ca4973c47fbe0044836c0d44a9665e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31de3a358457ee5fc1335fabb8655d38') in 0.001581 seconds 
+  Import took 0.004599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005141 seconds.
+  path: Assets/LeanTouch/Examples/Scripts/LeanPressSelect.cs
+  artifactKey: Guid(cc3b73c7cb5e25940856d9cae1a7764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/Scripts/LeanPressSelect.cs using Guid(cc3b73c7cb5e25940856d9cae1a7764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f551e477fcf54dfe59d121313c8c18') in 0.005083 seconds 
+  Import took 0.008438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004430 seconds.
+  path: Assets/LeanTouch/Examples/FingerTapSettings.lighting
+  artifactKey: Guid(57a1522f4ba38d748a5b59dda0600ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/FingerTapSettings.lighting using Guid(57a1522f4ba38d748a5b59dda0600ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '558e3e7761b19699904623809df25b11') in 0.009062 seconds 
+  Import took 0.012094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005561 seconds.
+  path: Assets/LeanTouch/Examples/CameraMoveZoomSmooth2DSettings.lighting
+  artifactKey: Guid(f99290820eb0d334eb43238846b280d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTouch/Examples/CameraMoveZoomSmooth2DSettings.lighting using Guid(f99290820eb0d334eb43238846b280d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '7d78edea5046e9e867e6d9a90d3e4533') in 0.005517 seconds 
+  Import took 0.008427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002690 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs
+  artifactKey: Guid(0034ebae0c2a9344e897db1160d71b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs using Guid(0034ebae0c2a9344e897db1160d71b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933413b4bc9ea8634c9a37163f178492') in 0.004652 seconds 
+  Import took 0.007351 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

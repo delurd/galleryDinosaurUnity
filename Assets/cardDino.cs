@@ -78,8 +78,11 @@ public class cardDino : MonoBehaviour
 
         /*Merubah ukuran dan posisi dari Content*/
         /*        goDeltaChange = GO.GetComponent<RectTransform>().sizeDelta = new Vector2(goDelta.x * jumCard - (jumCard*17+1), goDelta.y);*/
-        goDeltaChange = GO.GetComponent<RectTransform>().sizeDelta = new Vector2(goDelta.x + ((goDelta.x-25)*(jumCard-1)+(jumCard*2)), goDelta.y);
-        GO.GetComponent<RectTransform>().localPosition = new Vector3((goDeltaChange.x - wid) / 2, goPos.y, goPos.z); 
+        //Card Width = 286.62  v
+        /*goDeltaChange = GO.GetComponent<RectTransform>().sizeDelta = new Vector2(goDelta.x + ((goDelta.x-25)*(jumCard-1)+(jumCard*2)), goDelta.y);*/
+        goDeltaChange = GO.GetComponent<RectTransform>().sizeDelta = new Vector2(((250+27)*(jumCard))+25, goDelta.y);
+       /* GO.GetComponent<RectTransform>().localPosition = new Vector3((goDeltaChange.x - wid) / 2, goPos.y, goPos.z);*/ 
+        GO.GetComponent<RectTransform>().localPosition = new Vector3((goDeltaChange.x) / 2, goPos.y, goPos.z);
 
         /*Menghapus card Asli sesudah diduplikasi*/
         Destroy(buttonTemplate);
